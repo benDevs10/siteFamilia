@@ -28,6 +28,11 @@ source bin/activate
 deactivate
 ```
 
+Install ```requirements```:
+```commandline
+pip install -r requirements.txt
+```
+
 Some ```Git``` commands:
 
 ```commandline
