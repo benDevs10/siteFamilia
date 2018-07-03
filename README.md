@@ -1,8 +1,5 @@
-### siteFamilia
-##### Let's make it happen
-
-
-## ![Alt text](sources/logoFamilia.jpeg)
+###Site da Família Correnteira
+###<img align="left" width="200" height="200" src="sources/logoFamilia.jpeg">
 
 ### Install [pip](https://pypi.org/project/pip/)
 ```python
