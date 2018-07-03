@@ -20,13 +20,22 @@ pip install virtualenv
 ```bash
 apt-get install git
 ```
-Some Git commands:
+
+Some ```virtualenv``` commands:
+```commandline
+virtualenv env
+source bin/activate
+deactivate
+```
+
+Some ```Git``` commands:
+
 ```commandline
 git clone
 git status
-git add
-git commit
-git push
+git add file
+git commit -m "Comment"
+git push origin master
 ```
 
 -----
