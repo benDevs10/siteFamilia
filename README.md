@@ -1,11 +1,12 @@
-<img align="left" width="200" height="200" src="sources/logoFamilia.jpeg">
+<img align="left" width="150" height="150" src="sources/logoFamilia.jpeg">
 
 # Site da Família Correnteira
 
 ### Em breve
 
+
 -----
------
+
 
 ### Install [pip](https://pypi.org/project/pip/)
 ```python
