@@ -2,7 +2,7 @@
 ##### Let's make it happen
 
 
-## ![Alt text](https://www.python.org/static/community_logos/python-logo-inkscape.svg)
+## ![Alt text](sources/logoFamilia.jpeg)
 
 ### Install [pip](https://pypi.org/project/pip/)
 ```python
