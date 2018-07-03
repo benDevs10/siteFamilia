@@ -3,6 +3,20 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#Others
+pip-selfcheck.json
+
+#Folders
+.idea/
+idea/
+.vscode/
+
+#VirtualEnv Stuff
+bin/
+include/
+lib/
+
+
 # C extensions
 *.so
 
@@ -54,7 +68,16 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
+db.sqlite3.DS_Store
 db.sqlite3
+*.sqlite3
+media_upload/
+bin/
+include/
+Scripts/
+tcl/
+.idea/
+pip-selfcheck.json
 
 # Flask stuff:
 instance/
@@ -89,6 +112,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
 
 # Spyder project settings
 .spyderproject
