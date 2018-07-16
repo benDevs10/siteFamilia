@@ -15,7 +15,7 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'http://178.128.155.155']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
