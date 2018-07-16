@@ -87,11 +87,17 @@ body {
 .corrente-box {
   background-color: #fff;
   margin: auto;
-  width: 50%;
-  height: 500px;
+  width: 80%;
+  height: auto;
   border-style: ridge;
   border-width: 30px;
   border-color: #026810;
+  padding: 10px;
+  text-align: justify;
+}
+
+.corrente-box p {
+  font-family: monospace;
 }
 
 .footer-box {
@@ -159,6 +165,31 @@ body {
     margin-right: auto;
     width: 98%;
     height: 450px;
+  }
+
+  .message-box {
+    width: 80%;
+  }
+
+  .corrente-box {
+    width: 70%;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+  .alert-box h2 {
+    letter-spacing: 0px;
+  }
+
+  .logo {
+    background-image: url("../img/main_icon.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    height: 410px;
   }
 
   .message-box {
