@@ -11,7 +11,7 @@ body {
   position: relative;
   background-image: url("../img/back.png");
   background-size: 0.7%;
-  top: 20px;
+  top: 25px;
   padding: 0;
   padding-bottom: 60px;
   height: auto;
@@ -24,7 +24,7 @@ body {
   margin: 0;
   background-color: #026810;
   width: 100%;
-  height: 50px;
+  height: 55px;
 }
 
 .alert-box {
@@ -98,6 +98,17 @@ body {
 
 .corrente-box p {
   font-family: monospace;
+}
+
+.corrente-box .button-box {
+  width: 100%;
+  height: auto;
+  align-items: flex-end;
+}
+
+.corrente-box .button-box button{
+  margin: auto;
+  width: 100%;
 }
 
 .footer-box {
@@ -202,7 +213,14 @@ body {
 
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 750px) {
+  .top-line {
+    height: 90px;
+  }
+
+  .content {
+    top: 60px;
+  }
   .alert-box h2 {
     letter-spacing: 0px;
   }
@@ -229,11 +247,11 @@ body {
 
 @media screen and (max-width: 565px) {
   .top-line {
-    height: 75px;
+    height: 90px;
   }
 
   .content {
-    top: 45px;
+    top: 60px;
   }
 
   .alert-box h2 {
@@ -262,11 +280,11 @@ body {
 
 @media screen and (max-width: 520px) {
   .top-line {
-    height: 75px;
+    height: 90px;
   }
 
   .content {
-    top: 45px;
+    top: 60px;
   }
 
   .alert-box h2 {
@@ -295,11 +313,11 @@ body {
 
 @media screen and (max-width: 415px) {
   .top-line {
-    height: 75px;
+    height: 90px;
   }
 
   .content {
-    top: 45px;
+    top: 60px;
   }
 
   .alert-box h2 {
@@ -321,7 +339,7 @@ body {
   }
 
   .corrente-box {
-    width: 70%;
+    width: 85%;
   }
 
 }
