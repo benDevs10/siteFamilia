@@ -7,6 +7,16 @@
     <title>Família Correnteira</title>
     <link rel="shortcut icon" type="image/png" href="../../static/img/main_icon.png"/>
     <link rel="stylesheet" href="../../static/css/base.css"/>
+
+    <style type="text/css">
+    .circle {
+      width: 20px;
+      height: 20px;
+      border: 1px solid #000;
+      position: absolute;
+      border-radius: 15px;
+    }
+    </style>
 </head>
 
 
@@ -28,14 +38,16 @@
       </div>
     </div>
 
-    <div class="corrente-box">
+    <!--div class="corrente-box">
 
-    </div>
+    </div-->
 
   </div>
 
   <div class="footer-box">
-
+    <div class="footer">
+      <p><i>Copyright © 2018 by <b>Família&nbsp;Correnteira</b></i></p>
+    </div>
   </div>
     <!--div class="logo">
         <img src="../../static/img/main_icon.png" alt="Logo Família" width=50px height=50px/>
@@ -45,4 +57,39 @@
         <h1>Família Correnteira</h1>
         <h2>Site em Construção!</h2>
     </div-->
+
+
+
+
+
+
+
+
+
+
+
+    <!--script type="text/javascript">
+  		document.onmousemove = animateCircles;
+  		var colors = ['#026810','#5FD41F','#FDD719'];
+  		function animateCircles (event) {
+  			let circle = document.createElement("div");
+  			circle.setAttribute("class", "circle");
+  			document.body.appendChild(circle);
+  			circle.style.left = event.clientX + 'px';
+  			circle.style.top = event.clientY + 'px';
+  			var color = colors[Math.floor(Math.random() * colors.length)];
+  			circle.style.borderColor = color;
+  			circle.style.transition = "all 0.5s linear 0s";
+  			circle.style.left = circle.offsetLeft - 20 + 'px';
+  			circle.style.top = circle.offsetTop - 20 + 'px';
+  			circle.style.width = "50px";
+  			circle.style.height = "50px";
+  			circle.style.borderWidth = "5px";
+  			circle.style.opacity = 1;
+  			setTimeout(function() {
+                  circle.remove();
+              }, 500);
+  		}
+		</script-->
+
 </body>
