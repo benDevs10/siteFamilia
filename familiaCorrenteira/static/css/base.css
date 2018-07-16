@@ -1,37 +1,56 @@
 body {
-    background-image: url("../img/background.png");
 	margin: 0;
 	padding: 0;
-	font-family: Helvetica;
+}
+
+.content {
+  position: relative;
+  background-image: url("../img/back.png");
+  background-size: 0.7%;
+  top: 20px;
+  padding: 0;
+  height: 2334px;
+}
+
+.top-line {
+  position: absolute;
+  top: 0px;
+  margin-top: 0;
+  margin: 0;
+  background-color: #026810;
+  width: 100%;
+  height: 50px;
+}
+
+.logo-box {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
 }
 
 .logo {
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: auto;
+  background-image: url("../img/main_icon.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 360px;
 }
 
-.logo img {
-    width: 100%;
-    height: 100%;
+.footer-box {
+  position: relative;
+  background-color: #026810;
+  width: 100%;
+  height: 200px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 
-.info {
-    position: absolute;
-    bottom: 0;
-    margin: auto;
-    width: 100%;
-    background-color: #fff;
-    height: 130px;
-}
+@media screen and (max-width: 500px) {
 
-.info h1 {
-    text-align: center;
 }
-
-.info h2 {
-    text-align: center;
-}
-
