@@ -20,3 +20,8 @@ urlpatterns = [
     path('', include('temporary.urls', namespace='temporary')),
     path('admin/', admin.site.urls),
 ]
+
+handler404 = 'temporary.views.not_found'
+handler500 = 'temporary.views.server_error'
+handler403 = 'temporary.views.permission_denied'
+handler400 = 'temporary.views.bad_request'
