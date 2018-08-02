@@ -116,7 +116,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     #os.path.join(BASE_DIR, "static_site"),
-    '/home/django/siteFamilia/siteFamilia/static_site',
+    '/home/django/siteFamilia/siteFamilia/static',
     #'/var/www/static/',
 )
 
