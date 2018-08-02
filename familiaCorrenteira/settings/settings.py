@@ -115,7 +115,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static_site"),
+    #os.path.join(BASE_DIR, "static_site"),
+    '/home/django/siteFamilia/siteFamilia/static_site',
     #'/var/www/static/',
 )
 
