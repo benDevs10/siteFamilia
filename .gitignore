@@ -10,6 +10,7 @@ pip-selfcheck.json
 .idea/
 idea/
 .vscode/
+static_site/
 
 #VirtualEnv Stuff
 bin/
